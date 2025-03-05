@@ -3,101 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Results Portal</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AdminClemz School Portal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body>
 
-    <!-- Header with Link to Results Section -->
+    <!-- HEADER SECTION -->
     <header>
-        <h1><a href="#results" class="header-link">School Results Portal</a></h1>
+        <div class="logo">AdminClemz School</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="results.html">Check Results</a></li>
+                <li><a href="teachers.html">Teacher Login</a></li>
+                <li><a href="admin.html">Admin Panel</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <a href="#results">Results</a>
-        <a href="#students">Students</a>
-        <a href="#teachers">Teachers</a>
-        <a href="#archive">Archives</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <!-- Results Section -->
-    <section id="results" class="results">
-        <h2>Student Results</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Student Name</th>
-                    <th>Subject</th>
-                    <th>Score</th>
-                    <th>Grade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John Doe</td>
-                    <td>Mathematics</td>
-                    <td>87</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>Jane Smith</td>
-                    <td>English</td>
-                    <td>74</td>
-                    <td>B</td>
-                </tr>
-            </tbody>
-        </table>
-        <button class="view-btn">View More</button>
+    <!-- MAIN CONTENT -->
+    <section class="hero">
+        <h1>Welcome to AdminClemz School Portal</h1>
+        <p>Providing seamless student result management.</p>
+        <a href="results.html" class="btn">Check Results</a>
+        <a href="teachers.html" class="btn">Teacher Login</a>
+        <a href="admin.html" class="btn">Admin Panel</a>
     </section>
 
-    <!-- Students Section -->
-    <section id="students" class="students">
-        <h2>Registered Students</h2>
-        <ul>
-            <li>John Doe</li>
-            <li>Jane Smith</li>
-            <li>Michael Johnson</li>
-        </ul>
-        <button class="save-btn">Add Student</button>
-    </section>
-
-    <!-- Teachers Section -->
-    <section id="teachers" class="teachers">
-        <h2>Teachers</h2>
-        <ul>
-            <li>Mr. Williams - Mathematics</li>
-            <li>Ms. Brown - English</li>
-            <li>Dr. Adams - Science</li>
-        </ul>
-        <button class="submit-btn">Contact Teacher</button>
-    </section>
-
-    <!-- Archive Section -->
-    <section id="archive" class="archive">
-        <h2>Archived Results</h2>
-        <p>Previous exam results and past records.</p>
-        <button class="export-btn">Download Archive</button>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-
-            <button class="submit-btn">Submit</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
-        &copy; 2025 School Results Portal | <a href="#contact">Contact Support</a>
+        <p>&copy; 2025 AdminClemz School Portal | All Rights Reserved.</p>
     </footer>
 
 </body>
